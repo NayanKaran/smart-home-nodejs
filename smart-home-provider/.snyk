@@ -4,5 +4,7 @@ ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-HTTPSPROXYAGENT-469131:
-    - googleapis > google-auth-library > gtoken > gaxios > https-proxy-agent:
-        patched: '2019-10-11T13:42:47.038Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-11T13:43:46.929Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-11T13:43:46.929Z'
